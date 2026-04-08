@@ -1,0 +1,78 @@
+html{
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    font-size: 93.75%;
+}
+
+body{
+    height: 70.9rem;
+    width: 59.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 23.2rem 17.4rem 17.6rem;
+    grid-template-rows: 6.3rem 19.2rem 10.7rem 12rem 10.4rem 1fr;
+    column-gap: 0.7rem;
+    row-gap: 1.1rem;
+}
+
+body >*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.main-content h1, .header h2, .hero h2, .sidebar h2, .extra-content h2, .related-images h3, .related-posts h3, .footer h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.header{
+    background-color: #4dc3db;
+    grid-column: 1 / -1;
+    padding: 1.6rem;
+}
+
+.hero{
+    background-color: #c7b8d3;
+}
+
+.sidebar{
+    background-color: #94b35d;
+    grid-row: 3 / 5;
+}
+
+.main-content{
+    background-color: #e3b830;
+    grid-area: 2 / 2 / 4 / -1;
+}
+
+.main-content h1{
+    margin-bottom: 0.5rem;
+}
+.main-content p{
+    font-size: 1.2rem;
+}
+
+.extra-content{
+    background-color: #7e7e7e;
+    grid-column: 2 / -1;
+}
+
+.related-images{
+    background-color: #29a96d;
+    grid-column: 1 / -2;
+}
+
+.related-posts{
+    background-color: #e3bdcc;
+}
+
+.footer{
+    background-color: #eb9802;
+    grid-column: 1 / -1;
+}
+
